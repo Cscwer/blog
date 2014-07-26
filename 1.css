@@ -1,8 +1,18 @@
-.left {
+.left ,.affix{
 
 	/*background-color: #efac78;*/
 	font-family: "微软雅黑";
 	background-color: rgba(240,178,129,0.8);
+	
+}
+.affix {
+	padding: 0 2.6em  0 2.6em ;
+}
+.right {
+
+	/*background-color: #efac78;*/
+	font-family: "微软雅黑";
+	background-color: rgba(2123,18,144,0.8);
 	/*position: fixed;*/
 	/*width: 20.4em;
 	margin-left: -0.3em;*/
