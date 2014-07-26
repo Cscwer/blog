@@ -1,3 +1,7 @@
+body{
+	background-color: #F5F5F5;
+	font-family: "微软雅黑";
+}
 .left {
 	background-color: #ebebeb;
 }
@@ -52,4 +56,79 @@ div.column .content  {
 }
 div.column .content div {
 	margin-top: 0.3em;
+}
+.span3-right {
+	margin: 30px;
+	background-color: #FFFFFF;
+	width: 30%;
+	height: 338px;
+	position: absolute;
+	top: 870px;
+	left: 0px;
+}
+.span3-center {
+	margin: 30px;
+	background-color: #FFFFFF;
+	width: 30%;
+	height: 338px;
+	position: absolute;
+	top: 870px;
+	left: 33%;
+}
+.span3-left {
+	margin: 30px;
+	background-color: #FFFFFF;
+	width: 30%;
+	height: 338px;
+	position: absolute;
+	top: 870px;
+	left: 66%;
+}
+.low-left {
+	margin: 30px;
+	background-color: #FFFFFF;
+	width: 30%;
+	height: 338px;
+	position: absolute;
+	top: 1242px;
+	left: 0px;
+}
+.low-right {
+	margin: 30px;
+	background-color: #FFFFFF;
+	width: 63%;
+	height: 338px;
+	position: absolute;
+	top: 1242px;
+	left: 33%;
+}
+.box-title {
+	background-color: #AFAFAF;
+	width: 100%;
+	height: 33%;
+    font-size: 18px;
+    color: #ffffff;
+}
+.box-title a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.box-article {
+	font-weight: bold;
+	text-indent: 2em;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin: 38px 0em 0em 2em;
+}
+.box-img {
+	border: 3px solid #FFFFFF;
+	margin: 10%;
+	top: 25%;
+	left: 0.8%;
+}
+.box-img-low {
+	border: 3px solid #FFFFFF;
+	margin: 5%;
+	top: 25%;
+	left: 0.8%;
 }
