@@ -1,3 +1,4 @@
+/*以下为侧边栏部分*/
 .left {
 	font-family: "微软雅黑";
 	/*总体字体设置		*/
@@ -7,19 +8,21 @@
 	/*由于浮动引起的重调整*/
 }
 .right {
-	height: 129em;	
+	height: 114.1em;	
 }
 .left div {	
 	color:#fa4704;
 }
-div.logo{
+/*div.logo{
 	text-align: center;
 	margin-top: 0.4em;
 	font-size: 6em;
 	height: 2.2em;
-}
+}*/
 .nav {	
 	font-size: 1.12em;
+	/*font-size: 16px;*/
+	margin-top: 2.2em;
 }
 .content a {
 	color: rgb(255,120,20);
@@ -28,32 +31,35 @@ div.logo{
 .nav a {
 	text-decoration: none;
 	color:#fa4704;	
-	font-size: 1.12em;
+	font-size: 1.08em;
 }
 .column hr {
-	width: 16em;
-	color: #fa4704;
+	margin-top: 0.7em;
+	margin-bottom: 0.8em;
+	width: 16.5em;
+	color: #bbb;
 	size:2px;
-	border:solid 1px #fff;
+	border:solid 1.2px #ddd;
 }
 
 .columnbox {
-	height: 50em;
-	margin-top: 0.2em;
+	height: 30em;
+	/*margin-top: 0.2em;*/
 }
 
 div.column {
-	height: 9.2em;
+	height: 6.7em;
 }
 
 div.column .title {	
 	font-size: 1.12em;	
-	margin-top:2.7em; 
+	/*margin-top:2.7em; */
 }
 
 div.column .content  {
 	margin-top: 0.5em;	
 	font-size: 1.05em;
+	font-size: 14px;
 	margin-left: 2em;
 	font-weight: bold;
 }
@@ -65,3 +71,48 @@ div.column .content div {
 	background-image: url(images/background.jpg);
 }
 
+/*以下为页脚部分*/
+.footer {
+	height: 15em;
+	color: #fff;
+	color: rgb(128,125,125);
+	
+
+}
+.col-md-4>.row.title
+{
+	font-size: 1.12em;
+	margin-bottom: 1.4em;
+	font-weight: bold;
+}
+.col-md-4.rightfoot>.row.contain
+{
+	font-size: 1em;
+	line-height: 1.8em;
+	width: 25em;	
+}
+.col-md-4.leftfoot>.row.contain
+{
+	font-size: 1em;
+	width: 24em;
+
+	
+}
+.footer>.row>.col-md-4 {
+	padding: 1.8em 3.5em 0 3.5em;
+
+}
+.rightfoot span {
+	margin-right: 1em;
+}
+.logo {
+	font-size: 3em;
+	text-align: center;
+	color:#fa4704;
+	height: 1.7em;	
+	width: 8.3em;
+	margin-top:1em;
+	margin-left: -0.5em;
+	background-color: rgba(0,0,0,0.5);
+
+}
