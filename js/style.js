@@ -9,7 +9,7 @@ $('#leader').click(function() {
   }
   else
   if(key == 1) {
-    $('ul.lead').css('right', '-150px');
+    $('ul.lead').css('right', '-450px');
     $('ul.lead').css('color', 'rgba(250, 120, 20, 0)');
    // $('div.container').css('background-color', 'rgba(0, 0, 0, 0)');
     key = 0;
@@ -38,15 +38,3 @@ $('#leader').mouseout(function() {
 );
 $("header").data("headroom").destroy();
 // 按钮操作
-$('button#selector').mouseover(function(){
-    $('ul#inner').css('display','inline');
-  });
-  $('ul#inner').mouseover(function(){
-    $('ul#inner').css('display','inline');
-  });
-  $('button#selector').mouseout(function(){
-    $('ul#inner').css('display','none');
-  });
-  $('ul#inner').mouseout(function(){
-    $('ul#inner').css('display','none');
-  });
