@@ -1,0 +1,216 @@
+/*以下为侧边栏部分*/
+.left {
+	font-family: "微软雅黑";
+
+	/*总体字体设置		*/
+	/*background-color: rgba(241,149,86,0.5);*/
+	height: 114.1em;
+	background-image: url(images/BackgroundSiderbar.jpg)  ;
+	background-size:cover;  
+}
+.affix {
+	padding: 0 0em  0 2em ;
+	/*由于浮动引起的重调整*/
+	/*padding: 0 3% ;*/
+	margin: auto;
+	
+
+
+}
+.right {
+	height: 114.1em;
+	/*background-color: #000;	*/
+}
+.left div {	
+	color:#fa4704;
+}
+/*div.logo{
+	text-align: center;
+	margin-top: 0.4em;
+	font-size: 6em;
+	height: 2.2em;
+}*/
+.nav {	
+	font-size: 1.12em;
+	/*font-size: 16px;*/
+	margin-top: 2.2em;
+}
+.content a {
+	color: rgb(255,120,20);
+	text-decoration: none;
+}
+.nav a {
+	text-decoration: none;
+	color:#fa4704;	
+	font-size: 1.08em;
+}
+.column hr {
+	/*margin: auto;*/
+	width: 15em;
+	color: #bbb;
+	size:2px;
+	border:solid 1.2px #ddd;
+}
+
+.columnbox {
+	height: 30em;
+	/*margin-top: 0.2em;*/
+}
+
+div.column {
+	height: 6.7em;
+}
+
+div.column .title {	
+	font-size: 1.12em;	
+	/*margin-top:2.7em; */
+}
+
+div.column .content  {
+	margin-top: 0.5em;	
+	font-size: 1.05em;
+	font-size: 14px;
+	margin-left: 2em;
+	font-weight: bold;
+}
+div.column .content div {
+	margin-top: 0.7em;
+}
+.container
+{
+	background-image: url(images/BackgroundUndecorated.jpg)  ;
+	background-size:cover;  
+}
+
+/*以下为页脚部分*/
+.footer {
+	/*height: 15em;*/
+	color: #fff;
+	color: rgb(128,125,125);
+	background-image: url(images/BackgroundFooter.jpg)  ;
+	background-size:cover;  
+
+
+}
+
+.col-md-4>.row.title
+{
+	font-size: 1.12em;
+	margin-bottom: 1.4em;
+	font-weight: bold;
+}
+.col-md-4.rightfoot>.row.contain
+{
+	font-size: 1em;
+	line-height: 1.8em;
+	/*width: 25em;	*/
+}
+.col-md-4.leftfoot>.row.contain
+{
+	font-size: 1em;
+	/*width: 24em;*/
+
+	
+}
+.footer>.row>.col-md-4 {
+	padding: 1.8em 3.5em 0 3.5em;
+
+}
+.rightfoot span {
+	margin-right: 1em;
+}
+.logo {
+	font-size: 3em;
+	text-align: center;
+	color:#fa4704;
+	height: 1.7em;	
+	/*width: 8.3em;*/
+	margin-top:1em;
+	margin-left: -0.5em;
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+.col-md-9 {
+	font-family: "微软雅黑"；
+}
+
+.left_content {
+	margin: 2.14em;
+	width: 38.57em;
+	height: 32.86em;
+	background: url(images/img1.png);
+}
+
+.right_content {
+	margin: 2.14em;
+	width: 17em;
+	height: 32.86em;
+	background: url(images/img2.png);
+}
+
+.second_content {
+	margin: 1em;
+	width: 58.93em;
+	height: 16.43em;
+	background: url(images/img3.png);
+}
+
+
+.box_img {
+	margin: 1.43em;
+	position: absolute;
+	top: 2em;
+	left: 3.5em;
+}
+
+.box_label {
+	font-family: "微软雅黑";
+	font-size: 1.12em;
+	color: #FFFFFF;
+	width: 20em;
+	position: absolute;
+	top: 3em;
+	left: 8em;
+}
+
+.box_label a {color: #FFFFFF;}
+
+.left_article {
+	margin: 1.5em;
+	text-indent: 2em;
+	font-size: 1.1em;
+}
+
+.left_button {
+	border-radius: 0.7em;
+	position: relative;
+	top: 0em;
+	left: 28em;
+}
+
+.left_ex {
+	margin-top: -1.5em;
+	margin-left: 3em;
+	font-size: 1.3em;
+	width: 7em;
+}
+
+.right_ex {
+	margin-top: 0.5em;
+	margin-left: 3em;
+	font-size: 1.3em;
+	width: 7em;
+}
+
+.second_article {
+	text-indent: 2em;
+	font-size: 1.1em;
+	margin-top: 2em;
+}
+
+.second_ex {
+	margin-top: 1em;
+	font-size: 1.3em;
+	width: 7em;
+}

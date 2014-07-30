@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Cscw Web Blog</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="Font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -17,51 +18,163 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">   
-      <div class="col-md-3 left">
-        <div class="row logo">logo</div>
-        <div class="row nav">
-          <a href="#">博客首页</a>》 
-          <a href="#">前端</a>》 
-          <a href="#">技术</a>...
+    <div class="container contain"> 
+      <div class="row">  
+        <div class="col-md-3 left hidden-sm hidden-xs">
+          <div class="affix">
+            <!-- <div class="row logo ">logo</div> -->
+            <div class="row nav">
+              <a href="#">博客首页</a>》
+              <a href="#">前端</a>》 
+              <a href="#">技术领域</a>
+            </div>
+            <div class="row columnbox ">
+              <div class="column">
+                <hr>
+                <div class="title">前端 Website</div>
+                <div class="content">
+                  <div><a href="#">技术领域</a></div>
+                  <div><a href="#">干货分享</a></div>
+                </div>
+              </div>
+              <div class="column">
+                <hr>
+                <div class="title">设计 UI Design</div>
+                <div class="content">
+                  <div><a href="#">技术领域</a></div>
+                  <div><a href="#">干货分享</a></div>
+                </div>
+              </div>
+              <div class="column">
+                <hr>
+                <div class="title">团队生活 Team Life</div>
+                <div class="content">
+                  <div><a href="#">日常点滴</a></div>
+                  <div><a href="#">分享会</a></div>
+                </div>
+              </div>
+              
+            </div>
+            </div>
+          </div>
+          <div class="col-md-9  right"> 
+        <div class="row">
+          <div class="col-md-8">
+            <div class="left_content">
+              <div class="left_box">
+                <a class="img" href="#" target="_blank">
+                  <img src="images/img1.1.png">
+                </a>
+                <a href="#" target="_blank">
+                  <img class="box_img" src="images/img1.2.png">
+                </a>
+                <div class="box_label">
+                  <a href="#">一个人的午后，邂逅美食--项目告一段落</a>
+                  <br />
+                  &nbsp&nbsp<a href="#">SHAW</a>
+                  <span>|</span>
+                  <a href="#">团队生活</a>
+                  <span>|</span>
+                  <span>2014/07/26</span>
+                </div>  
+              </div>
+              <div class="left_article">
+                <p>有时候，安静地躺在床上就会想起，年幼的我曾经的梦想——是做一名音乐家，聆听小提琴的悠扬婉转，感受尤克里里的异域风情；当一名探险者，在大自然面前做一名合格的听众，感受这上苍的魅力之无穷......</p>
+                <input type="button" value="MORE" class="left_button" href="#" />
+              </div>
+              <div class="left_ex">
+                <i class="icon-comment-alt"></i>
+                <a href="#">5</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+                <i class="icon-heart-empty"></i>
+                <a href="#">10</a>
+              </div>  
+            </div >
+          </div>
+          <div class="col-md-4">
+            <div class="right_content">
+              <div class="right_box">
+                <a class="img" href="#" target="_blank">
+                  <img src="images/img2.1.png">
+                </a>
+                <a href="#" target="_blank">
+                  <img class="box_img" src="images/img2.2.png">
+                </a>
+                <div class="box_label">
+                  <a href="#">[连载]精选海报图片</a>
+                  <br />
+                  &nbsp&nbsp<a href="#">ALAN</a>
+                  <span>|</span>
+                  <a href="#">设计干货</a>
+                </div>  
+              </div>
+              <div class="right_ex">
+                <i class="icon-comment-alt"></i>
+                <a href="#">5</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+                <i class="icon-heart-empty"></i>
+                <a href="#">10</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="col-md-10">
+          <div class="second_content">
+            <div class="second_box">
+              <a class="img" href="#" target="_blank">
+                <img src="images/img3.1.png">
+              </a>
+              <a href="#" target="_blank">
+                <img class="box_img" src="images/img3.2.png">
+              </a>
+              <div class="box_label">
+                <a href="#">只有1980年代的爱情最扣人心弦</a>
+                <br />
+                &nbsp&nbsp<a href="#">EVELYN</a>
+                <span>|</span>
+                <a href="#">悦读一刻</a>
+              </div>  
+            </div>
+          </div>
         </div>
-        <div class="row columnbox">
-          <div class="column">
-            <hr>
-            <div class="title">前端 Website</div>
-            <div class="content">
-              <div><a href="#">技术领域</a></div>
-              <div><a href="#">干货分享</a></div>
-            </div>
+        <div class="col-md-2">
+          <div class="second_article">
+            <p>熟悉野夫传奇生涯的朋友或许都知道，这篇完成于德国科隆的中篇小说——《1980年代的爱情》、......</p>
           </div>
-          <div class="column">
-            <hr>
-            <div class="title">设计 UI Design</div>
-            <div class="content">
-              <div><a href="#">技术领域</a></div>
-              <div><a href="#">干货分享</a></div>
-            </div>
+          <div class="second_ex">
+            <i class="icon-comment-alt"></i>
+            <a href="#">0</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+            <i class="icon-heart-empty"></i>
+            <a href="#">6</a>
           </div>
-          <div class="column">
-            <hr>
-            <div class="title">团队生活 Team Life</div>
-            <div class="content">
-              <div><a href="#">日常点滴</a></div>
-              <div><a href="#">分享会</a></div>
-            </div>
-          </div>
+        </div>
+          </div> 
+      </div>
 
+      <div class="row">
+        <div class="col-md-12 footer">
+        <div class="row">
+          <div class="col-md-4 leftfoot">
+            <p class="row title">Know&nbsp;&nbsp;more&nbsp;&nbsp;about&nbsp;&nbsp;us</p>
+            <div class="row contain">CsCw   协同前端组由一群充满活力与热情的90后组成。每年从新生中选拔出新鲜血液。承接校内外项目。组内成员互相协助完成项目，空余时间一起做大家想做的网页来练手。秉承认真的原则，我们不管是工作还是玩，都认真对待着。</div>
+          </div>
+          <div class="col-md-4 middlefoot">
+            <div class="logo">
+              logo
+            </div>
+          </div>
+          <div class="col-md-4 rightfoot">
+            <p class="row title">Contact&nbsp;&nbsp;us</p>
+            <div class="row contain">
+              <span class="glyphicon glyphicon-pushpin"></span>Address:&nbsp;&nbsp;&nbsp;广工大工一511 <br>
+              <span class="glyphicon glyphicon-phone"></span>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（020）888888 <br>
+              <span class="glyphicon glyphicon-envelope"></span>E-mail:&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cscwweb@163.com
+            </div>
+          </div>
+        </div>
         </div>
       </div>
-      <div class="col-md-9 right"> 
-        <!-- 右边内容 -->
-     
-      </div>
+
     </div>
-    
-   
-
-    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
