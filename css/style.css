@@ -110,6 +110,9 @@ div.column .content div {
 }
 
 /* 导航栏部分 */
+body {
+	overflow-x: hidden;
+}
 div.spaced {
 	height: 83px;
 }
@@ -129,7 +132,7 @@ div.container_1 {
 	position: fixed;
 	left: 0;
 	top: 0;
-	
+	z-index: 3;
 }
 ul.lead {
 	font-family: "微软雅黑";
@@ -179,7 +182,11 @@ div.first {
 div.btn-group {
 	border-radius: 0;
 }
-/*正文*/
+/*正文部分*/
+.sjw-article {
+	width: 100%;
+}
+
 div.article-author {
 	position: absolute;
 	top: 65%;
@@ -196,18 +203,7 @@ div.article-date {
 	top: 30%;
 	left: 50%;
 }
-div.article-spaced {
-	height: 2px;
-	width: 100%;
-	background-color: white;
-	position: absolute;
-	top: 80%;
-}
-div.container-fluid {
-	position: absolute;
-	top: 0;
 
-}
 div.article-head {
 	position: relative;
 	top: 0;
@@ -222,7 +218,7 @@ div.article-head {
 div.article-inner {
 	position: relative;
 	top: 0;
-
+	width: 100%;
 }
 h3 {
 	position: relative;
