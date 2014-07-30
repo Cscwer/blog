@@ -8,7 +8,8 @@
 	/*由于浮动引起的重调整*/
 }
 .right {
-	height: 114.1em;	
+	height: 114.1em;
+	padding:0px;	
 }
 .left div {	
 	color:#fa4704;
@@ -117,59 +118,44 @@ div.column .content div {
 
 }
 .up-right {
-	margin: 30px;
+	margin: 20px;
 	background-color: #FFFFFF;
-	width: 41%;
-	height: 338px;
-	position: absolute;
-	top: 829px;
-	left: 87%;
 	padding: 0px;
+	height: 338px;
+	width: 17em;
 }
 .up-center {
-	margin: 30px;
+	margin: 20px;
 	background-color: #FFFFFF;
-	width: 41%;
-	height: 338px;
-	position: absolute;
-	top: 829px;
-	left: 41%;
 	padding: 0px;
+	height: 338px;
+	width: 17em;
 }
 .up-left {
-	margin: 30px;
+	margin: 20px;
 	background-color: #FFFFFF;
-	width: 41%;
-	height: 338px;
-	position: absolute;
-	top: 829px;
-	left: -5%;
 	padding: 0px;
+	height: 338px;
+	width: 17em;
 }
 .low-left {
-	margin: 30px;
+	margin: 20px;
 	background-color: #FFFFFF;
-	width: 41%;
-	height: 338px;
-	position: absolute;
-	top: 1210px;
-	left: -5%;
 	padding: 0px;
+	height: 338px;
+	width: 17em;
 }
 .low-right {
-	margin: 30px;
+	margin: 20px;
 	background-color: #FFFFFF;
-	width: 87%;
-	height: 338px;
-	position: absolute;
-	top: 1210px;
-	left: 41%;
 	padding: 0px;
+	height: 338px;
+	width: 36.9em;
 }
 .box-title {
 	background-color: #AFAFAF;
 	width: 100%;
-	height: 33%;
+	height: 6em;
     font-size: 18px;
     color: #ffffff;
 }
@@ -183,8 +169,6 @@ div.column .content div {
 }
 
 .box-article {
-	width: 100%;
-    height: 67%;
 	font-weight: bold;
 	text-indent: 2em;
 	font-family: "微软雅黑";
@@ -193,26 +177,34 @@ div.column .content div {
 	overflow: hidden;
 	padding-top: 19px;
 	padding-right: 14px;
-    padding-bottom: 0px;
+    padding-bottom: 19px;
     padding-left: 14px;
+    height: 100%;
+    width: 100%;
 }
 .box-img {
 	float: left;
 	border: 3px solid #FFFFFF;
 	margin: 10%;
-	top: 25%;
-	left: 0.8%;
 	width: 60px;
 	height: 60px;
+	transition: 1s;
+}
+.box-img:hover{
+	width: 80px;
+	height: 80px;
 }
 .box-img-low {
 	float: left;
 	border: 3px solid #FFFFFF;
 	margin: 5%;
-	top: 25%;
-	left: 0.8%;
 	width: 60px;
 	height: 60px;
+	transition: 1s;
+}
+.box-img-low:hover{
+	width: 80px;
+	height: 80px;
 }
 .box-label {
 	text-decoration: none;
