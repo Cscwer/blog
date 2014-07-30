@@ -1,6 +1,6 @@
-Blog
+Blog for CscwWeb
 ====
 
-属于协同前端的博客  Blog for CscwWeb
+创建属于我们的第一个博客。 
 
-上传 GitHub 于 2014年7月26日 
+项目起始于 2014 年 7 月 26 日。
