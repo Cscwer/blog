@@ -60,7 +60,7 @@ img.transform {
 	/*总体字体设置		*/
 	/*background-color: rgba(241,149,86,0.5);*/
 	height: 114.1em;
-	background-image: url(../images/BackgroundSiderbar.jpg)  ;
+	background-image: url(./images/BackgroundSiderbar.jpg)  ;
 	background-size:cover;  
 }
 .affix {

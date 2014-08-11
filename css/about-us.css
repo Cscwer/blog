@@ -1,0 +1,164 @@
+/* 导航栏部分 */
+body {
+	/*overflow-y: scroll;*/
+	font-family: "微软雅黑";
+}
+div.spaced {
+	height: 83px;
+}
+div#leader {
+	width: 103px;
+	height: 83px;
+	background-color: #EED4DF;
+	position: relative;
+	left: 93.5%;
+	
+}
+div.container_1 {
+	overflow: hidden;
+	width: 100%;
+	height: 83px; 
+	background-color: #EED4DF;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 3000;
+}
+ul.lead {
+
+	color: rgb(250, 120, 20);
+	list-style-type: none;
+	height: 83px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	right: 80px;
+	vertical-align: center;
+	-webkit-transition-duration: .3s;
+}
+li {
+	float: left;
+	display: block;
+	margin-right: 50px;
+	cursor: pointer;
+	line-height: 83px;
+}
+img.menu {
+	-webkit-transition-duration: 0.2s;
+	/*padding-right: 100em;*/
+	position: fixed;
+	right: 2em;
+}
+img.transform {
+	-webkit-transform: rotate(270deg);
+}
+/*内容部分*/
+.contain {
+	height: 2000px;
+	background-color: #EEEAE9;
+}
+.mountain {
+	text-align: center;
+}
+.mountain img {
+	width: 33%;
+	min-width: 200px;
+}
+.summery {
+	font-size: 1.12em;
+	color: #090303;
+	text-indent:2.24em;
+	margin-top: 3em;
+	line-height: 2em;
+}
+.whiteline {
+	margin-top: 3em;
+	border: solid #fff 1px;
+}
+.title {
+	font-size: 1.12em;
+	color: #090303;
+	margin-top: -2.2em;
+	text-align: center;
+}
+.title div {
+		width: 5em;
+		font-size: 1.12em;
+		margin: 0 auto ;
+		background-color: #EEEAE9;
+}
+.title-xhb div {
+		width: 7em;
+}
+.Co-operationType {
+	margin-top: 2em;
+}
+.Co-operationType img {
+	width: 100%;
+}
+.manico {
+	margin-top: 4em;
+}
+.KindsOfPeople {
+	text-align: center;
+}
+.KindsOfPeople img {
+	width: 60%;
+}
+.total {
+	margin-top: 2em;
+	text-align: center;
+	font-size: 1.12em;
+	color: #090303;
+	font-weight: bold;
+	margin-bottom: 2em;
+}	
+.total img {
+	width:28%;
+}
+
+
+/*以下为页脚部分*/
+.footer {
+
+	color: rgb(128,125,125);
+	background-color: #DB5D47;
+}
+.col-md-4>.row.title
+{
+	font-size: 1.12em;
+	margin-bottom: 1.4em;
+	font-weight: bold;
+}
+.col-md-4.rightfoot>.row.contain
+{
+	font-size: 1em;
+	line-height: 1.8em;
+	/*width: 25em;	*/
+}
+.col-md-4.leftfoot>.row.contain
+{
+	font-size: 1em;
+	/*width: 24em;*/
+
+	
+}
+.footer>.row>.col-md-4 {
+	padding: 1.8em 3.5em 0 3.5em;
+
+}
+.rightfoot span {
+	margin-right: 1em;
+}
+.logo {
+	font-size: 3em;
+	text-align: center;
+	color:#fa4704;
+	height: 1.7em;	
+	/*width: 8.3em;*/
+	margin-top:1em;
+	margin-left: -0.5em;
+	background-color: rgba(0,0,0,0.5);
+
+}
+
