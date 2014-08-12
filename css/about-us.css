@@ -54,8 +54,9 @@ img.transform {
 }
 /*内容部分*/
 .contain {
-	height: 2000px;
+	/*height: 3000px;*/
 	background-color: #EEEAE9;
+	margin-bottom: 0;
 }
 .mountain {
 	text-align: center;
@@ -75,7 +76,7 @@ img.transform {
 	margin-top: 3em;
 	border: solid #fff 1px;
 }
-.title {
+.whiteline+.title {
 	font-size: 1.12em;
 	color: #090303;
 	margin-top: -2.2em;
@@ -116,12 +117,70 @@ img.transform {
 .total img {
 	width:28%;
 }
+.head-show {
+	width: 125px;
+	height: 125px;
+	background-color: #f00;
+}
+.name {
+	color: #f00;
+}
+.peoplebox {
+	margin-top: 5em;
+}
+.manbox {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.Rope {
+	background-image: url(../images/Rope.png) ;
+	background-size: 6.7%;
+	background-repeat: repeat-x;
+	height: 1em;
+}
+.BigMan img {
+	margin-top: -12em;
+}
+
+/*以下动画特效*/
+.designerico,.coderico {
+	font-size: 2em;
+}
+.designerico {
+	text-align: right;
+
+}
+.coderico {
+	margin-top: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*以下为页脚部分*/
 .footer {
 
-	color: rgb(128,125,125);
+	color: #FFF;
 	background-color: #DB5D47;
 }
 .col-md-4>.row.title
@@ -129,12 +188,16 @@ img.transform {
 	font-size: 1.12em;
 	margin-bottom: 1.4em;
 	font-weight: bold;
+	color: #FFF;
+	text-align: center;
 }
-.col-md-4.rightfoot>.row.contain
+
+.col-md-4.rightfoot>.row
 {
-	font-size: 1em;
-	line-height: 1.8em;
-	/*width: 25em;	*/
+	
+	line-height: 3em;
+	text-indent: 6em;
+	/*margin-left: 40%;*/
 }
 .col-md-4.leftfoot>.row.contain
 {
