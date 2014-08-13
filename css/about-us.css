@@ -153,11 +153,60 @@ img.transform {
 .coderico {
 	margin-top: 4em;
 }
+.designer,.coder {
+	float: left;
+	background-image: url(../images/s-ico.png);	
+	background-repeat: no-repeat;
+	background-position: 0 -284px;
+	/*background-size: 90% 100%;*/
+	height: 40px;
+	width: 40px;
+}
+.designer {
+	background-position: 0 -243px;
+}
+.about-us {
+		padding-left: 0;
+		padding-right: 0;
+		/*vertical-align: middle;*/
 
-
-
-
-
+}
+.a-s-title {
+		display: inline-block;
+		font-size: 1.12em;		
+		color: #090303;
+		padding-top: 0.3em;
+}
+/*以下为社交图标的效果*/
+.social-ico {
+	margin-top: 1em;
+	margin-left: 1em;
+}
+.s-ico1,.s-ico2,.s-ico3 {
+	margin-left: 1em;
+	background-image: url(../images/s-ico.png);
+	/*background-size: 6.7%;*/
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+.s-ico2 {
+	background-position: 0 -40px;
+}
+.s-ico3 {
+	background-position: 0 -80px;
+}
+.s-ico1:hover {
+	background-position: 0 -121px;
+}
+.s-ico2:hover {
+	background-position: 0 -162px;
+}
+.s-ico3:hover {
+	background-position: 0 -203px;
+}
 
 
 
