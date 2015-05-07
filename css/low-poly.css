@@ -1,0 +1,28 @@
+
+body {
+    background: #fff;
+    color: #fff;
+    /*overflow: hidden;*/
+}
+body {
+    margin: 0;
+}
+html {
+    height: 100%
+}
+#output {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out
+}
+#container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}

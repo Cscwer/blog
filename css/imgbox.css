@@ -1,0 +1,118 @@
+.imgbox img{
+	width: 40%;
+	position: absolute;
+	top:130%;
+	left: 50%;
+	-webkit-box-shadow: 5px 5px 19px 4px rgba(0,1,2,0.91) ;
+	box-shadow: 5px 5px 19px 4px rgba(0,1,2,0.91) ;
+	
+	-moz-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+	
+}
+.img1 img{
+	z-index: 2;
+	margin-left: -280px;
+	margin-top: -20px;
+}
+.img2 img{
+	z-index: 3;
+	margin-left: -240px;
+	margin-top: 0px;
+}
+.img3 img{
+	z-index: 4;
+	margin-left: -200px;
+	margin-top: 20px;
+}
+.img4 img{
+	z-index: 5;
+	margin-left: -160px;
+	margin-top: 40px;
+}
+
+.imgul{
+	/*position: absolute;*/
+	/*left: 50%;*//*
+	top: 100%;*/
+}
+
+.imgbox img:hover{
+-webkit-backface-visibility:visible;
+-webkit-transform-origin:center center;
+-webkit-animation:demo 3s 0s 1 linear normal forwards ;
+} @-webkit-keyframes demo{
+0%{
+
+-webkit-transform:rotate(0deg) scaleX(1) scaleY(1);
+} 7%{
+-webkit-transform:rotate(20deg);
+} 44%{
+
+left:-100px;
+margin-left:-100px;
+margin-top: 1%;
+z-index: 6;	
+-webkit-transform:rotate(20deg);
+
+} 69%{
+left:200px;
+z-index: 6;	
+
+-webkit-transform:rotate(0deg);
+} 100%{
+left:500px;
+z-index: 6;	
+margin-left:-100px;
+margin-top: 1%;
+-webkit-transform:rotate(0deg) scaleX(2) scaleY(2);
+} 64%{
+-webkit-transform:scaleX(1);
+} 65%{
+-webkit-transform:scaleY(1);
+} 21%{
+z-index: 6;
+left:200px;
+} 
+}
+.imgbox img:hover{
+-moz-backface-visibility:visible;
+-moz-transform-origin:center center;
+-moz-animation:demo 3s 0s 1 linear normal forwards ;
+
+-moz-animation-play-state: running;
+-o-animation-play-state: running;
+animation-play-state: running;
+} @-moz-keyframes demo{
+0%{
+
+
+-moz-transform:rotate(0deg) scaleX(1) scaleY(1);
+} 7%{
+-moz-transform:rotate(20deg);
+} 44%{
+left:-100px;
+margin-left:-100px;
+margin-top: 1%;
+z-index: 6;	
+-moz-transform:rotate(20deg);
+} 69%{
+	z-index: 6;	
+left:200px;
+-moz-transform:rotate(0deg);
+} 100%{
+left:500px;
+z-index: 6;	
+margin-left:-100px;
+margin-top: 1%;
+-moz-transform:rotate(0deg) scaleX(2) scaleY(2);
+} 64%{
+-moz-transform:scaleX(1);
+} 65%{
+-moz-transform:scaleY(1);
+} 21%{
+	z-index: 6;	
+left:200px;
+} 
+}

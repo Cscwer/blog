@@ -1,62 +1,102 @@
 /* 导航栏部分 */
 body {
-	/*overflow-y: scroll;*/
 	font-family: "微软雅黑";
+	background-color: #EEEAE9;
 }
-div.spaced {
-	height: 83px;
+a,a:hover, a:focus{text-decoration: none;color:#fff;}
+.leaderrow{
+	height: 0px;
+	margin-bottom: 4.5%;
 }
-div#leader {
-	width: 103px;
-	height: 83px;
-	background-color: #EED4DF;
-	position: relative;
-	left: 93.5%;
-	
-}
-div.container_1 {
+
+
+div.blogleaderbox {
 	overflow: hidden;
 	width: 100%;
-	height: 83px; 
-	background-color: #EED4DF;
+	height: 7%;
+	min-height: 49px;
+	background-color: rgba(39,39,39, 1);
 	position: fixed;
 	left: 0;
 	top: 0;
-	z-index: 3000;
+	z-index: 1000;
 }
 ul.lead {
 
-	color: rgb(250, 120, 20);
-	list-style-type: none;
-	height: 83px;
-	margin: 0;
 	position: absolute;
-	top: 0;
-	right: 80px;
-	vertical-align: center;
+	right: 16.5%;
+	top: 15%;
+	
+	font-size: 1.2em;
+	list-style-type: none;
+	
 	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-ms-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+	
 }
-li {
+.lead a {color: rgb(252,69,0); }
+.secondlead a {color: rgb(254,118,0);}
+ul.secondlead {
+
+	
+	font-size: 0.8em;
+	position: absolute;
+	
+	right: 16.8%;
+	top: 50%;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-ms-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+}
+.lead li {
 	float: left;
 	display: block;
-	margin-right: 50px;
+	margin-right: 46px;
 	cursor: pointer;
-	line-height: 83px;
+	/*line-height: 83px;*/
+}
+.secondlead li {
+	float: left;
+	display: block;
+	margin-right: 45px;
+	cursor: pointer;
+	/*text-shadow: 1px 1px 1px #0E7A96; */
 }
 img.menu {
-	-webkit-transition-duration: 0.2s;
-	/*padding-right: 100em;*/
-	position: fixed;
-	right: 2em;
+	
+	-webkit-transition-duration: .2s;
+	-moz-transition-duration: .2s;
+	-ms-transition-duration: .2s;
+	-o-transition-duration: .2s;
+	transition-duration: .2s;
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+	right: 1%;
+	/*margin-right: 2em;*/
+	cursor:pointer;
+
 }
 img.transform {
 	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
 }
+/*导航栏结束*/
 /*内容部分*/
 .contain {
 	/*height: 3000px;*/
 	background-color: #EEEAE9;
 	margin-bottom: 0;
+	margin-top: 7%;
 }
 .mountain {
 	text-align: center;

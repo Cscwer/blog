@@ -1,0 +1,39 @@
+.Look-around {
+	width:125px;
+	height: 125px;
+	background-image: url("../images/people.jpg");
+
+}
+
+
+/*只有上面部分是必要的css效果，下面的可有可无*/
+.peoplebox {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto ;
+	/*padding-top: 440px;*/
+	/*vertical-align: middle;*/
+}
+li {display: inline-block;}
+
+.Look-around {
+	float: left;
+	margin: 1em  3em  ;
+	border-radius: 125px;
+
+}
+.offsetleft {
+	clear: left;
+	margin-left: 10em;
+}
+.offsetright {
+	clear: right;
+	margin-right: 10em;
+}
+
+
+ul.peopleul{
+	position: relative;
+	margin: 0 auto ;
+
+}
