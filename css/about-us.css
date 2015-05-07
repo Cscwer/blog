@@ -1,0 +1,316 @@
+/* 导航栏部分 */
+body {
+	font-family: "微软雅黑";
+	background-color: #EEEAE9;
+}
+a,a:hover, a:focus{text-decoration: none;color:#fff;}
+.leaderrow{
+	height: 0px;
+	margin-bottom: 4.5%;
+}
+
+
+div.blogleaderbox {
+	overflow: hidden;
+	width: 100%;
+	height: 7%;
+	min-height: 49px;
+	background-color: rgba(39,39,39, 1);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+}
+ul.lead {
+
+	position: absolute;
+	right: 16.5%;
+	top: 15%;
+	
+	font-size: 1.2em;
+	list-style-type: none;
+	
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-ms-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+	
+}
+.lead a {color: rgb(252,69,0); }
+.secondlead a {color: rgb(254,118,0);}
+ul.secondlead {
+
+	
+	font-size: 0.8em;
+	position: absolute;
+	
+	right: 16.8%;
+	top: 50%;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-ms-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+}
+.lead li {
+	float: left;
+	display: block;
+	margin-right: 46px;
+	cursor: pointer;
+	/*line-height: 83px;*/
+}
+.secondlead li {
+	float: left;
+	display: block;
+	margin-right: 45px;
+	cursor: pointer;
+	/*text-shadow: 1px 1px 1px #0E7A96; */
+}
+img.menu {
+	
+	-webkit-transition-duration: .2s;
+	-moz-transition-duration: .2s;
+	-ms-transition-duration: .2s;
+	-o-transition-duration: .2s;
+	transition-duration: .2s;
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+	right: 1%;
+	/*margin-right: 2em;*/
+	cursor:pointer;
+
+}
+img.transform {
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+}
+/*导航栏结束*/
+/*内容部分*/
+.contain {
+	/*height: 3000px;*/
+	background-color: #EEEAE9;
+	margin-bottom: 0;
+	margin-top: 7%;
+}
+.mountain {
+	text-align: center;
+}
+.mountain img {
+	width: 33%;
+	min-width: 200px;
+}
+.summery {
+	font-size: 1.12em;
+	color: #090303;
+	text-indent:2.24em;
+	margin-top: 3em;
+	line-height: 2em;
+}
+.whiteline {
+	margin-top: 3em;
+	border: solid #fff 1px;
+}
+.whiteline+.title {
+	font-size: 1.12em;
+	color: #090303;
+	margin-top: -2.2em;
+	text-align: center;
+}
+.title div {
+		width: 5em;
+		font-size: 1.12em;
+		margin: 0 auto ;
+		background-color: #EEEAE9;
+}
+.title-xhb div {
+		width: 7em;
+}
+.Co-operationType {
+	margin-top: 2em;
+}
+.Co-operationType img {
+	width: 100%;
+}
+.manico {
+	margin-top: 4em;
+}
+.KindsOfPeople {
+	text-align: center;
+}
+.KindsOfPeople img {
+	width: 60%;
+}
+.total {
+	margin-top: 2em;
+	text-align: center;
+	font-size: 1.12em;
+	color: #090303;
+	font-weight: bold;
+	margin-bottom: 2em;
+}	
+.total img {
+	width:28%;
+}
+.head-show {
+	width: 125px;
+	height: 125px;
+	background-color: #f00;
+}
+.name {
+	color: #f00;
+}
+.peoplebox {
+	margin-top: 5em;
+}
+.manbox {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.Rope {
+	background-image: url(../images/Rope.png) ;
+	background-size: 6.7%;
+	background-repeat: repeat-x;
+	height: 1em;
+}
+.BigMan img {
+	margin-top: -12em;
+}
+
+/*以下动画特效*/
+.designerico,.coderico {
+	font-size: 2em;
+}
+.designerico {
+	text-align: right;
+
+}
+.coderico {
+	margin-top: 4em;
+}
+.designer,.coder {
+	float: left;
+	background-image: url(../images/s-ico.png);	
+	background-repeat: no-repeat;
+	background-position: 0 -284px;
+	/*background-size: 90% 100%;*/
+	height: 40px;
+	width: 40px;
+}
+.designer {
+	background-position: 0 -243px;
+}
+.about-us {
+		padding-left: 0;
+		padding-right: 0;
+		/*vertical-align: middle;*/
+
+}
+.a-s-title {
+		display: inline-block;
+		font-size: 1.12em;		
+		color: #090303;
+		padding-top: 0.3em;
+}
+/*以下为社交图标的效果*/
+.social-ico {
+	margin-top: 1em;
+	margin-left: 1em;
+}
+.s-ico1,.s-ico2,.s-ico3 {
+	margin-left: 1em;
+	background-image: url(../images/s-ico.png);
+	/*background-size: 6.7%;*/
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+.s-ico2 {
+	background-position: 0 -40px;
+}
+.s-ico3 {
+	background-position: 0 -80px;
+}
+.s-ico1:hover {
+	background-position: 0 -121px;
+}
+.s-ico2:hover {
+	background-position: 0 -162px;
+}
+.s-ico3:hover {
+	background-position: 0 -203px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*以下为页脚部分*/
+.footer {
+
+	color: #FFF;
+	background-color: #DB5D47;
+}
+.col-md-4>.row.title
+{
+	font-size: 1.12em;
+	margin-bottom: 1.4em;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+
+.col-md-4.rightfoot>.row
+{
+	
+	line-height: 3em;
+	text-indent: 6em;
+	/*margin-left: 40%;*/
+}
+.col-md-4.leftfoot>.row.contain
+{
+	font-size: 1em;
+	/*width: 24em;*/
+
+	
+}
+.footer>.row>.col-md-4 {
+	padding: 1.8em 3.5em 0 3.5em;
+
+}
+.rightfoot span {
+	margin-right: 1em;
+}
+.logo {
+	font-size: 3em;
+	text-align: center;
+	color:#fa4704;
+	height: 1.7em;	
+	/*width: 8.3em;*/
+	margin-top:1em;
+	margin-left: -0.5em;
+	background-color: rgba(0,0,0,0.5);
+
+}
+
